@@ -317,7 +317,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* NEOM + TouchDesigner Credential */}
+        {/* NEOM + Capabilities Credential */}
         <section className="py-24 border-t border-brand-border">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-8">
@@ -337,7 +337,7 @@ export default function HomePage() {
                   <div className="section-label mb-4">Featured Work</div>
                   <h3 className="font-display text-2xl font-bold mb-3">NEOM Sindalah</h3>
                   <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                    We designed and deployed a distributed real-time lighting control system across NEOM&apos;s Sindalah Island development in Saudi Arabia. Unity tablet, networked TouchDesigner runtimes, MQTT bus, 42 LED-illuminated towers.
+                    We designed and deployed the lighting control software for NEOM&apos;s Sindalah Island development in Saudi Arabia, letting the venue team control architectural lighting across the island from a single tablet.
                   </p>
                   <Link href="/services" className="inline-flex items-center gap-2 text-sm font-semibold transition-colors" style={{color: '#22d3ee'}}>
                     View our work

@@ -7,12 +7,12 @@ import Footer from '@/components/layout/Footer'
 export const metadata: Metadata = {
   title: 'Services: Event Technology, AR, TouchDesigner & Custom Software',
   description:
-    'InteractXP builds event technology, AR experiences, HTML5 games, TouchDesigner lighting systems, digital platforms, and custom software. Featured work includes NEOM Sindalah.',
+    'InteractXP builds event technology, AR experiences, HTML5 games, lighting control systems, digital platforms, and custom software. Featured work includes NEOM Sindalah.',
   alternates: { canonical: 'https://interactxp.in/services' },
   openGraph: {
     title: 'InteractXP Services: AR, TouchDesigner, Event Tech & Custom Software',
     description:
-      'From AR marker experiences to TouchDesigner lighting for NEOM Sindalah, we build interactive technology that leaves an impression.',
+      'From AR marker experiences to lighting control for NEOM Sindalah, we build interactive technology that leaves an impression.',
     url: 'https://interactxp.in/services',
   },
 }
@@ -107,14 +107,14 @@ export default function ServicesPage() {
                     NEOM Sindalah, Saudi Arabia
                   </h2>
                   <p className="text-slate-300 leading-relaxed max-w-2xl">
-                    We designed and deployed a distributed real-time lighting control system across the Sindalah Island development. A single tablet, a Unity operator interface, and a network of TouchDesigner runtimes drive 42 LED-illuminated towers across the island over MQTT. Designed, built, and deployed on-site in three weeks.
+                    We designed and deployed the lighting control software for the Sindalah island development, letting the venue team control architectural lighting across the island from a single tablet. Designed, built, and deployed on-site in three weeks.
                   </p>
                 </div>
                 <div className="flex-shrink-0">
                   <div className="card-dark rounded-xl px-6 py-4 text-center">
-                    <p className="text-xs font-mono tracking-widest uppercase text-slate-500 mb-1">Stack</p>
-                    <p className="font-display font-bold text-white">Unity &middot; TouchDesigner</p>
-                    <p className="text-xs text-slate-500 mt-1">MQTT &middot; DMX &middot; 14 nodes</p>
+                    <p className="text-xs font-mono tracking-widest uppercase text-slate-500 mb-1">Role</p>
+                    <p className="font-display font-bold text-white">Lighting control software</p>
+                    <p className="text-xs text-slate-500 mt-1">Designed &amp; deployed on-site</p>
                   </div>
                 </div>
               </div>
@@ -138,13 +138,13 @@ export default function ServicesPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="rounded-xl overflow-hidden aspect-[4/3] bg-black flex items-center justify-center" style={{ border: '1px solid rgba(34,211,238,0.15)' }}>
+                <div className="rounded-xl overflow-hidden aspect-[4/3]" style={{ border: '1px solid rgba(34,211,238,0.15)' }}>
                   <Image
-                    src="/images/neom/unity-control-panel.png"
-                    alt="The Unity-based operator control panel for the NEOM tower lighting system."
+                    src="/images/neom/vault-construction.jpg"
+                    alt="A high-end storefront at the Sindalah development with warm architectural lighting along the planter edge."
                     width={800}
                     height={600}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
